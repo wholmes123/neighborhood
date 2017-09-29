@@ -153,16 +153,16 @@ function handError() {
 
 //default places to shown:
 var sandiegoLoc = [
-    // { loc: 'Hotel del Coronado',lat: 32.680886,long: -117.178448 }, 
-    // {loc: 'San Diego Zoo', lat: 37.735516, long: -117.149637 },
-    // {loc: 'USS Midway Museum',lat: 32.713738,long: -117.175562},
-    // {loc: 'Seaport Village',lat: 32.709466,long:-117.171056},
-    // {loc: 'SeaWorld San Diego',lat: 32.765496,long: -117.22745},
-    // {loc: 'Cabrillo National Monument',lat: 32.672635,long: -117.242315},
-    // {loc: 'Balboa Park',lat: 32.730441,long: -117.151607},
-    // {loc: 'Old Town History Park',lat: 32.75503,long: -117.199142},
-    // {loc: 'La Jolla',lat: 32.831731,long: -117.279394},
-    // {loc: 'Gaslamp Str.',lat: 32.711627,long: -117.15937},
+    {loc: 'Hotel del Coronado',lat: 32.680886,long: -117.178448 }, 
+    {loc: 'San Diego Zoo', lat: 37.735516, long: -117.149637 },
+    {loc: 'USS Midway Museum',lat: 32.713738,long: -117.175562},
+    {loc: 'Seaport Village',lat: 32.709466,long:-117.171056},
+    {loc: 'SeaWorld San Diego',lat: 32.765496,long: -117.22745},
+    {loc: 'Cabrillo National Monument',lat: 32.672635,long: -117.242315},
+    {loc: 'Balboa Park',lat: 32.730441,long: -117.151607},
+    {loc: 'Old Town History Park',lat: 32.75503,long: -117.199142},
+    {loc: 'La Jolla',lat: 32.831731,long: -117.279394},
+    {loc: 'Gaslamp Str.',lat: 32.711627,long: -117.15937},
     {loc: 'Sunset Cliffs Natureal Park',lat: 32.718073,long: -117.255170} 
     ];
 
