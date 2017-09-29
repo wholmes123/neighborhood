@@ -1,0 +1,64 @@
+body {
+    margin: 1;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.find {
+    width: 36%;
+    display: flex;
+}
+
+.entrySearch {
+    height: 32px;
+    font-size: 1em;
+    padding: 15px 20px;
+    flex-grow: 1;
+}
+
+.body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.places {
+    order: 1;
+    flex-grow: 1;
+    background-color: #555;
+}
+
+
+@media only screen and (max-device-width : 800px), only screen and (max-width : 800px)  {
+    .app {
+        flex-direction: column;
+    }
+    .entrySearch {
+        font-size: 1.4em;
+    } 
+
+    .list {
+        font-size: 1.4em;
+    }
+
+}
+
+.place {
+    margin: 0;
+    padding: 0;
+}
+
+.location {
+    background-color: #382;
+    margin: 8px;
+    padding: 8px;
+    list-style: none;
+}
+
+.googlemap {
+    background-color: #555;
+    height: 900px;
+    order: 2;
+    flex-grow: 4;
+    text-align: center;
+}
+
